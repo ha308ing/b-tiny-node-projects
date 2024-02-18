@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  place-content: center;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.loginFieldset {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 30vw;
+  max-height: 50vh;
+  gap: 1em;
+}
