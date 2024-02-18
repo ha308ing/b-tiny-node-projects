@@ -1,0 +1,23 @@
+{
+  "name": "tiny-node-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run server -w server",
+    "contacts": "npm start -w 'contacts-csv'",
+    "restaurant": "npm start -w 'restaurant-webserver'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "server",
+    "client",
+    "contacts-csv",
+    "contacts-csv-2",
+    "restaurant-webserver",
+    "password-manager"
+  ]
+}
