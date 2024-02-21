@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm run server -w server",
     "contacts": "npm start -w 'contacts-csv'",
-    "restaurant": "npm start -w 'restaurant-webserver'"
+    "restaurant": "npm start -w 'restaurant-webserver'",
+    "passwords": "npm start -w password-manager"
   },
   "keywords": [],
   "author": "",
