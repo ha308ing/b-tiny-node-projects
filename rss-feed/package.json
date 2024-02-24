@@ -1,18 +1,17 @@
 {
-  "name": "server",
+  "name": "rss-feed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "dotenvx run -- node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dotenvx/dotenvx": "0.20.0",
-    "express": "4.18.2"
+    "rss-parser": "3.13.0"
   }
 }
