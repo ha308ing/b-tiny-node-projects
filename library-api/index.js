@@ -1,4 +1,5 @@
 import express from "express";
+import { mainRouter } from "./routes/index.js";
 
 const port = 3000;
 const app = express();
@@ -13,7 +14,9 @@ app.get("/", (_req, res) => {
   res.json({ message: "ok" });
 });
 
-app.use((e, _req, res) => {
+app.use("/api", mainRouter);
+
+app.use((e, _req, res, _next) => {
   const { message, stack, statusCode } = e;
   console.error(message, stack);
   res.status(statusCode || 500).json({ message });
