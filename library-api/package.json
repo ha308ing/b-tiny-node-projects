@@ -11,9 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "nodemonConfig":{},
+  "nodemonConfig": {},
   "dependencies": {
     "express": "4.18.2",
-    "nodemon": "3.1.0"
+    "nodemon": "3.1.0",
+    "sequelize": "6.37.1",
+    "sqlite3": "5.1.7"
   }
 }
